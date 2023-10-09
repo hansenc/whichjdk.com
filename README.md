@@ -180,7 +180,7 @@ Also, BellSoft has a high industry reputation and is engaged in various working 
 
 BellSoft provides open source OpenJDK builds called _Liberica JDK_ for pretty much all operating systems and architectures.
 
-The popular Spring Boot framework chose Liberica JDK as runtime for their [buildpack](https://github.com/paketo-buildpacks/bellsoft-liberica).
+[Paketo Buildpacks](https://paketo.io/) chose the Liberica JDK as the default runtime for their [Java Buildpack](https://paketo.io/docs/reference/java-reference/) and [Java Native Image Buildpack](https://paketo.io/docs/reference/java-native-image-reference/). Paketo Buildpacks are used by the popular Spring Boot framework's [build container image](https://docs.spring.io/spring-boot/docs/current/reference/html/container-images.html#container-images.buildpacks) functionality.
 
 A downside of these builds is the dependency to a single company, that may suddenly change its license or update policies.
 
